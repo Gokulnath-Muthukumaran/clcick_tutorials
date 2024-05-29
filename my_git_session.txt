@@ -1,0 +1,834 @@
+Script started on 2024-05-28 11:39:52+00:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="124" LINES="31"]
+[?2004h(base) ]0;gokulnath@TIGER04785: ~[01;32mgokulnath@TIGER04785[00m:[01;34m~[00m$ [7mgit config --list --show-origin[27mgit config --list --show-origin
+[?2004l[?1h=[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: ~[01;32mgokulnath@TIGER04785[00m:[01;34m~[00m$ [7mgit config --global user.name "John Doe"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --global user.name "John Doe"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"G"o"k"u"l"n"a"t"h"
+[?2004l[?2004h(base) ]0;gokulnath@TIGER04785: ~[01;32mgokulnath@TIGER04785[00m:[01;34m~[00m$ [7mgit config --global user.email johndoe@example.com[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --global user.email johndoe@example.com[C[1P.com[1P.com[1P.com[1P.com[1P.com[1P.com[1P.com[1P.com[1P.com[1P.com[1P.com[1P.com[1P.com[1P.com[1P.comg.como.comk.comu.coml.comn.coma.comt.comh.com[C.comk.comu.comm.coma.comr.coma.com@.comg.comm.coma.comi.coml.com"gokulnath.kumara@gmail.com[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"[1P[1P[1P[1P[1P[1P[1P[1P[1P
+[?2004lfatal: not in a git directory
+[?2004h(base) ]0;gokulnath@TIGER04785: ~[01;32mgokulnath@TIGER04785[00m:[01;34m~[00m$ cd[K[Kcd ..
+[?2004l[?2004h(base) ]0;gokulnath@TIGER04785: /home[01;32mgokulnath@TIGER04785[00m:[01;34m/home[00m$ cd ..
+[?2004l[?2004h(base) ]0;gokulnath@TIGER04785: /[01;32mgokulnath@TIGER04785[00m:[01;34m/[00m$ cd mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial/
+[?2004l[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git init
+[?2004l[33mhint: Using 'master' as the name for the initial branch. This default branch name[m
+[33mhint: is subject to change. To configure the initial branch name to use in all[m
+[33mhint: of your new repositories, which will suppress this warning, call:[m
+[33mhint: [m
+[33mhint: 	git config --global init.defaultBranch <name>[m
+[33mhint: [m
+[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m
+[33mhint: 'development'. The just-created branch can be renamed via this command:[m
+[33mhint: [m
+[33mhint: 	git branch -m <name>[m
+Initialized empty Git repository in /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial/.git/
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git initcd mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial/[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [C[C[C..[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config user.email "gokulnath.kumara@gmail.com"[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [C[C[C[C[C[C[C[C[C[C[C[1P--global user.name "Gokulnath"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P
+[?2004l[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git config user.name "Gokulnath"init[Kcd mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial/[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [C[C[C..[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config user.email "gokulnath.kumara@gmail.com"
+[?2004l[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ go[Kit config --list
+[?2004l[?1h=user.name=Gokulnath[m
+core.repositoryformatversion=0[m
+core.filemode=false[m
+core.bare=false[m
+core.logallrefupdates=true[m
+core.ignorecase=true[m
+user.name=Gokulnath[m
+user.email=gokulnath.kumara@gmail.com[m
+[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git hel config
+[?2004lgit: 'hel' is not a git command. See 'git --help'.
+
+The most similar command is
+	help
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git hel config[Cp config
+[?2004l[?1049h[22;0;0t[?1h=[4mGIT-CONFIG[24m(1)                                          Git Manual                                          [4mGIT-CONFIG[24m(1)[m
+[m
+[1mNAME[0m[m
+       git-config - Get and set repository or global options[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--fixed-value] [--show-origin] [--show-scope] [-z|--null] <name> [<value>[m [4m[24m[4m[24m [<value-pattern>]][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] --add <name> <value>[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--fixed-value] --replace-all <name> <value> [<value-pattern>][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [--show-scope] [-z|--null] [--fixed-value] --get <name> [<[m [4m[24m[4m[24mvalue-pattern>][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [--show-scope] [-z|--null] [--fixed-value] --get-all <name[m [4m[24m[4m[24m> [<value-pattern>][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [--show-scope] [-z|--null] [--fixed-value] [--name-only] -[m [4m[24m[4m[24m-get-regexp <name-regex> [<value-pattern>][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [-z|--null] --get-urlmatch <name> <URL>[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--fixed-value] --unset <name> [<value-pattern>][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--fixed-value] --unset-all <name> [<value-pattern>][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --rename-section <old-name> <new-name>[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --remove-section <name>[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--show-origin] [--show-scope] [-z|--null] [--name-only] -l | --list[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --get-color <name> [<default>][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --get-colorbool <name> [<stdout-is-tty>][m
+       [4mgit[24m [4mconfig[24m [<file-option>] -e | --edit[m
+[m
+[1mDESCRIPTION[0m[m
+       You can query/set/replace/unset options with this command. The name is actually the section and the key separated[m
+       by a dot, and the value will be escaped.[m
+[m
+[7m Manual page git-config(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git add *.c
+[?2004lfatal: pathspec '*.c' did not match any files
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git status
+[?2004lOn branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mLib/[m
+	[31mScripts/[m
+	[31mcalc.py[m
+	[31mcontext.py[m
+	[31mhello.py[m
+	[31mpyvenv.cfg[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git add README
+[?2004lfatal: pathspec 'README' did not match any files
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ cat .gitignnore
+[?2004lcat: .gitignnore: No such file or directory
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ nano .gitigo[Knore
+[?2004l[?2004h[?1049h[22;0;0t[1;31r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[29;57H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                                             .gitignore                                                       [1;123H(B[m[30d(B[0;7m^G(B[m Help[30;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[30;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[31d(B[0;7m^X(B[m Exit[31;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[1;71H(B[0;7m*[123G(B[m[2d*.[oa][3d*~[29d[K[3d*~[?12l[?25h[?25l[?12l[?25h[?25l [4d~[?12l[?25h[?25l[A*~[4d[K[A*[?12l[?25h[?25l[30;16H[16X[30;32H(B[0;7mM-D(B[m DOS Format      [30;61H  (B[0;7mM-A(B[m Append[21X[30;94H(B[0;7mM-B(B[m Backup File[K[31;2H(B[0;7mC(B[m Cancel[16G[16X[31;32H(B[0;7mM-M(B[m Mac Format        [61G  (B[0;7mM-P(B[m Prepend[20X[31;94H(B[0;7m^T(B[m Browse[K[29d(B[0;7mFile Name to Write: .gitignore                                                                                              [29;31H(B[m[?12l[?25h[?25l[29;55H[1K (B[0;7m[ Writing... ](B[m[K[1;71H(B[0;7m [123G(B[m[29;54H(B[0;7m[ Wrote 2 lines ](B[m[30;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[30;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo       (B[0;7mM-A(B[m Set Mark[31;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo       (B[0;7mM-6(B[m Copy[?12l[?25h[3d*[?25l[29d[J[31d[?12l[?25h[31;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ ls
+[?2004l[0m[34;42mInclude[0m  [34;42mLib[0m  [34;42mScripts[0m  [01;32mcalc.py[0m  [01;32mcontext.py[0m  [01;32mhello.py[0m  [01;32mpyvenv.cfg[0m
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ ls -a
+[?2004l[0m[34;42m.[0m  [34;42m..[0m  [34;42m.git[0m  [01;32m.gitignore[0m  [34;42mInclude[0m  [34;42mLib[0m  [34;42mScripts[0m  [01;32mcalc.py[0m  [01;32mcontext.py[0m  [01;32mhello.py[0m  [01;32mpyvenv.cfg[0m
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ nano .gitignore
+[?2004l[?2004h[?1049h[22;0;0t[1;31r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[29;56H(B[0;7m[ Reading... ](B[m[29;55H(B[0;7m[ Read 2 lines ](B[m[H(B[0;7m  GNU nano 7.2                                             .gitignore                                                       [1;123H(B[m[30d(B[0;7m^G(B[m Help[30;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[30;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[31d(B[0;7m^X(B[m Exit[31;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d*.[oa][3d*~[A[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[1;71H(B[0;7m*[123G(B[m[?12l[?25h[4dI[?25l[?12l[?25hn[?25l[?12l[?25hc[?25l[?12l[?25hl[?25l[?12l[?25hu[?25l[?12l[?25hd[?25l[?12l[?25he[?25l[5d[?12l[?25h[?25l[?12l[?25hb[?25l[?12l[?25hu[?25l[?12l[?25hi[?25l[?12l[?25hl[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[6d[?12l[?25h[?25l[?12l[?25hS[?25l[?12l[?25hc[?25l[29d[K[?12l[?25h[6dScr[?25l[?12l[?25hi[?25l[?12l[?25hp[?25l[?12l[?25ht[?25l[?12l[?25hs[?25l[?12l[?25hO[?25l[?12l[?25h [?25l[30;16H[16X[30;32H(B[0;7mM-D(B[m DOS Format      [30;61H  (B[0;7mM-A(B[m Append[21X[30;94H(B[0;7mM-B(B[m Backup File[K[31;2H(B[0;7mC(B[m Cancel[16G[16X[31;32H(B[0;7mM-M(B[m Mac Format        [61G  (B[0;7mM-P(B[m Prepend[20X[31;94H(B[0;7m^T(B[m Browse[K[29d(B[0;7mFile Name to Write: .gitignore                                                                                              [29;31H(B[m[?12l[?25h[?25l[29;55H[1K (B[0;7m[ Writing... ](B[m[K[1;71H(B[0;7m [123G(B[m[29;54H(B[0;7m[ Wrote 5 lines ](B[m[30;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[30;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo       (B[0;7mM-A(B[m Set Mark[31;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo       (B[0;7mM-6(B[m Copy[?12l[?25h[6;8H[?25l[29d[J[31d[?12l[?25h[31;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git add
+[?2004lNothing specified, nothing added.
+[33mhint: Maybe you wanted to say 'git add .'?[m
+[33mhint: Turn this message off by running[m
+[33mhint: "git config advice.addEmptyPathspec false"[m
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git status
+[?2004lOn branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31mLib/[m
+	[31mcalc.py[m
+	[31mcontext.py[m
+	[31mhello.py[m
+	[31mpyvenv.cfg[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ nano .gitignore
+[?2004l[?2004h[?1049h[22;0;0t[1;31r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[29;56H(B[0;7m[ Reading... ](B[m[29;55H(B[0;7m[ Read 5 lines ](B[m[H(B[0;7m  GNU nano 7.2                                             .gitignore                                                       [1;123H(B[m[30d(B[0;7m^G(B[m Help[30;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[30;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[31d(B[0;7m^X(B[m Exit[31;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d*.[oa][3d*~[4dInclude[5dbuild[6dScripts[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[1;71H(B[0;7m*[123G(B[m[?12l[?25h[7dL[?25l[?12l[?25hi[?25l[?12l[?25hb[?25l[?12l[?25h/[?25l[30;16H[16X[30;32H(B[0;7mM-D(B[m DOS Format      [30;61H  (B[0;7mM-A(B[m Append[21X[30;94H(B[0;7mM-B(B[m Backup File[K[31;2H(B[0;7mC(B[m Cancel[16G[16X[31;32H(B[0;7mM-M(B[m Mac Format        [61G  (B[0;7mM-P(B[m Prepend[20X[31;94H(B[0;7m^T(B[m Browse[K[29d(B[0;7mFile Name to Write: .gitignore                                                                                              [29;31H(B[m[?12l[?25h[?25l[29;55H[1K (B[0;7m[ Writing... ](B[m[K[1;71H(B[0;7m [123G(B[m[29;54H(B[0;7m[ Wrote 6 lines ](B[m[30;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[30;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo       (B[0;7mM-A(B[m Set Mark[31;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo       (B[0;7mM-6(B[m Copy[?12l[?25h[7;5H[?25l[29d[J[31d[?12l[?25h[31;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git status
+[?2004lOn branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31mcalc.py[m
+	[31mcontext.py[m
+	[31mhello.py[m
+	[31mpyvenv.cfg[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git diff
+[?2004l[?1h=[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git dif --stagged
+[?2004lgit: 'dif' is not a git command. See 'git --help'.
+
+The most similar commands are
+	diff
+	config
+	difftool
+	init
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git dif --staggedf --stagged
+[?2004l[?1h=error: invalid option: --stagged[m
+usage: git diff [<options>] [<commit>] [--] [<path>...][m
+   or: git diff [<options>] --cached [--merge-base] [<commit>] [--] [<path>...][m
+   or: git diff [<options>] [--merge-base] <commit> [<commit>...] <commit> [--] [<path>...][m
+   or: git diff [<options>] <commit>...<commit> [--] [<path>...][m
+   or: git diff [<options>] <blob> <blob>[m
+   or: git diff [<options>] --no-index [--] <path> <path>[m
+[m
+common diff options:[m
+  -z            output diff-raw with lines terminated with NUL.[m
+  -p            output patch format.[m
+  -u            synonym for -p.[m
+  --patch-with-raw[m
+                output both a patch and the diff-raw format.[m
+  --stat        show diffstat instead of patch.[m
+  --numstat     show numeric diffstat instead of patch.[m
+  --patch-with-stat[m
+                output a patch and prepend its diffstat.[m
+  --name-only   show only names of changed files.[m
+  --name-status show names and status of changed files.[m
+  --full-index  show full object name on index lines.[m
+  --abbrev=<n>  abbreviate object names in diff-tree header and diff-raw.[m
+  -R            swap input file pairs.[m
+  -B            detect complete rewrites.[m
+  -M            detect renames.[m
+  -C            detect copies.[m
+  --find-copies-harder[m
+                try unchanged files as candidate for copy detection.[m
+  -l<n>         limit rename attempts up to <n> paths.[m
+  -O<file>      reorder diffs according to the <file>.[m
+:[K[K  -S<string>    find filepair whose only one side contains the string.[m
+:[K[K  --pickaxe-all[m
+:[K[K [K^X^X[H[2J[H   or: git diff [<options>] --cached [--merge-base] [<commit>] [--] [<path>...][m
+   or: git diff [<options>] [--merge-base] <commit> [<commit>...] <commit> [--] [<path>...][m
+   or: git diff [<options>] <commit>...<commit> [--] [<path>...][m
+   or: git diff [<options>] <blob> <blob>[m
+   or: git diff [<options>] --no-index [--] <path> <path>[m
+[m
+common diff options:[m
+  -z            output diff-raw with lines terminated with NUL.[m
+  -p            output patch format.[m
+  -u            synonym for -p.[m
+  --patch-with-raw[m
+                output both a patch and the diff-raw format.[m
+  --stat        show diffstat instead of patch.[m
+  --numstat     show numeric diffstat instead of patch.[m
+  --patch-with-stat[m
+                output a patch and prepend its diffstat.[m
+  --name-only   show only names of changed files.[m
+  --name-status show names and status of changed files.[m
+  --full-index  show full object name on index lines.[m
+  --abbrev=<n>  abbreviate object names in diff-tree header and diff-raw.[m
+  -R            swap input file pairs.[m
+  -B            detect complete rewrites.[m
+  -M            detect renames.[m
+  -C            detect copies.[m
+  --find-copies-harder[m
+                try unchanged files as candidate for copy detection.[m
+  -l<n>         limit rename attempts up to <n> paths.[m
+  -O<file>      reorder diffs according to the <file>.[m
+  -S<string>    find filepair whose only one side contains the string.[m
+  --pickaxe-all[m
+:[K[H[2J[H   or: git diff [<options>] --cached [--merge-base] [<commit>] [--] [<path>...][m
+   or: git diff [<options>] [--merge-base] <commit> [<commit>...] <commit> [--] [<path>...][m
+   or: git diff [<options>] <commit>...<commit> [--] [<path>...][m
+   or: git diff [<options>] <blob> <blob>[m
+   or: git diff [<options>] --no-index [--] <path> <path>[m
+[m
+common diff options:[m
+  -z            output diff-raw with lines terminated with NUL.[m
+  -p            output patch format.[m
+  -u            synonym for -p.[m
+  --patch-with-raw[m
+                output both a patch and the diff-raw format.[m
+  --stat        show diffstat instead of patch.[m
+  --numstat     show numeric diffstat instead of patch.[m
+  --patch-with-stat[m
+                output a patch and prepend its diffstat.[m
+  --name-only   show only names of changed files.[m
+  --name-status show names and status of changed files.[m
+  --full-index  show full object name on index lines.[m
+  --abbrev=<n>  abbreviate object names in diff-tree header and diff-raw.[m
+  -R            swap input file pairs.[m
+  -B            detect complete rewrites.[m
+  -M            detect renames.[m
+  -C            detect copies.[m
+  --find-copies-harder[m
+                try unchanged files as candidate for copy detection.[m
+  -l<n>         limit rename attempts up to <n> paths.[m
+  -O<file>      reorder diffs according to the <file>.[m
+  -S<string>    find filepair whose only one side contains the string.[m
+  --pickaxe-all[m
+:[K[K                show all files diff when -S is used and hit is found.[m
+:[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[31;1H[K[K:[K[K[?1l>
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git diff --stagged[1Ped
+[?2004l[?1h=[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git add .
+[?2004l[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git status
+[?2004lOn branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   .gitignore[m
+	[32mnew file:   calc.py[m
+	[32mnew file:   context.py[m
+	[32mnew file:   hello.py[m
+	[32mnew file:   pyvenv.cfg[m
+
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git commit -m ""c"l"i"c"k"_"t"u"t"o"r"i"a"l"s"[C
+[?2004l[master (root-commit) ad713d4] click_tutorials
+ 5 files changed, 100 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 calc.py
+ create mode 100644 context.py
+ create mode 100644 hello.py
+ create mode 100644 pyvenv.cfg
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git push
+[?2004lfatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git push [K[K[K[K[Kconfig
+[?2004lusage: git config [<options>]
+
+Config file location
+    --[no-]global         use global config file
+    --[no-]system         use system config file
+    --[no-]local          use repository config file
+    --[no-]worktree       use per-worktree config file
+    -f, --[no-]file <file>
+                          use given config file
+    --[no-]blob <blob-id> read config from given blob object
+
+Action
+    --[no-]get            get value: name [value-pattern]
+    --[no-]get-all        get all values: key [value-pattern]
+    --[no-]get-regexp     get values for regexp: name-regex [value-pattern]
+    --[no-]get-urlmatch   get value specific for the URL: section[.var] URL
+    --[no-]replace-all    replace all matching variables: name value [value-pattern]
+    --[no-]add            add a new variable: name value
+    --[no-]unset          remove a variable: name [value-pattern]
+    --[no-]unset-all      remove all matches: name [value-pattern]
+    --[no-]rename-section rename section: old-name new-name
+    --[no-]remove-section remove a section: name
+    -l, --[no-]list       list all
+    --[no-]fixed-value    use string equality when comparing values to 'value-pattern'
+    -e, --[no-]edit       open an editor
+    --[no-]get-color      find the color configured: slot [default]
+    --[no-]get-colorbool  find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --[no-]type <type>
+                          value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --[no-]null       terminate values with NUL byte
+    --[no-]name-only      show variable names only
+    --[no-]includes       respect include directives on lookup
+    --[no-]show-origin    show origin of config (file, standard input, blob, command line)
+    --[no-]show-scope     show scope of config (worktree, local, global, system, command)
+    --[no-]default <value>
+                          with --get, use default value when missing entry
+
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git [K[K[K[Kgit config[2Ppushcommit -m "click_tutorials"status[K[1Padd .diff --stagedged[1P --staggedf[Kstatusnano .gitignore[5Pgit status[3Paddnano .gitignore[10Pls -a[Knano .gitignorecat .gitignnore[1Pgit add README[4Pstatusadd *.chelp config[1P configconfig --listuser.email "gokulnath.kumara@gmail.com"[1P.com"[C[C[1P.com"[C[1P.com"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.c[1Pom"[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.co[1Pm"[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct.com"[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci.com"g.com"[Ce.com"[C[Cr.com"[C[C[Ca.com"n.com"a.com"l.com"y.com"t.com"i.com"c.com"s.com"
+[?2004l[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git ci[Konfig
+[?2004lusage: git config [<options>]
+
+Config file location
+    --[no-]global         use global config file
+    --[no-]system         use system config file
+    --[no-]local          use repository config file
+    --[no-]worktree       use per-worktree config file
+    -f, --[no-]file <file>
+                          use given config file
+    --[no-]blob <blob-id> read config from given blob object
+
+Action
+    --[no-]get            get value: name [value-pattern]
+    --[no-]get-all        get all values: key [value-pattern]
+    --[no-]get-regexp     get values for regexp: name-regex [value-pattern]
+    --[no-]get-urlmatch   get value specific for the URL: section[.var] URL
+    --[no-]replace-all    replace all matching variables: name value [value-pattern]
+    --[no-]add            add a new variable: name value
+    --[no-]unset          remove a variable: name [value-pattern]
+    --[no-]unset-all      remove all matches: name [value-pattern]
+    --[no-]rename-section rename section: old-name new-name
+    --[no-]remove-section remove a section: name
+    -l, --[no-]list       list all
+    --[no-]fixed-value    use string equality when comparing values to 'value-pattern'
+    -e, --[no-]edit       open an editor
+    --[no-]get-color      find the color configured: slot [default]
+    --[no-]get-colorbool  find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --[no-]type <type>
+                          value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --[no-]null       terminate values with NUL byte
+    --[no-]name-only      show variable names only
+    --[no-]includes       respect include directives on lookup
+    --[no-]show-origin    show origin of config (file, standard input, blob, command line)
+    --[no-]show-scope     show scope of config (worktree, local, global, system, command)
+    --[no-]default <value>
+                          with --get, use default value when missing entry
+
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git config user.email "gokulnath.kumara@tigeranalytics.com"[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Ppushcommit -m "click_tutorials"status[K[1Padd .diff --stagedged[1P --staggedf[Kstatusnano .gitignore[5Pgit status[3Paddnano .gitignore[10Pls -a[Knano .gitignorecat .gitignnore[1Pgit add README[4Pstatusadd *.chelp config[1P configconfig --list
+[?2004l[?1h=user.name=Gokulnath[m
+core.repositoryformatversion=0[m
+core.filemode=false[m
+core.bare=false[m
+core.logallrefupdates=true[m
+core.ignorecase=true[m
+user.name=Gokulnath[m
+user.email=gokulnath.kumara@tigeranalytics.com[m
+[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git remote add origin [7mhttps://github.com/G[27m[7mo[27m[7mkulnath-Muthukumaran/clcick_tutorials.git[27m[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://github.com/Gokulnath-Muthukumaran/clcick_tutorials.git
+[?2004l[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git remote
+[?2004lorigin
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git oush[K[K[K[Kpush origin
+[?2004lfatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit push --set-upstream origin master[27mgit push --set-upstream origin master
+[?2004lUsername for 'https://github.com': Gokulnath-Muthukumaran
+Password for 'https://Gokulnath-Muthukumaran@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Gokulnath-Muthukumaran/clcick_tutorials.git/'
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git congif
+[?2004lgit: 'congif' is not a git command. See 'git --help'.
+
+The most similar command is
+	config
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git config
+[?2004lusage: git config [<options>]
+
+Config file location
+    --[no-]global         use global config file
+    --[no-]system         use system config file
+    --[no-]local          use repository config file
+    --[no-]worktree       use per-worktree config file
+    -f, --[no-]file <file>
+                          use given config file
+    --[no-]blob <blob-id> read config from given blob object
+
+Action
+    --[no-]get            get value: name [value-pattern]
+    --[no-]get-all        get all values: key [value-pattern]
+    --[no-]get-regexp     get values for regexp: name-regex [value-pattern]
+    --[no-]get-urlmatch   get value specific for the URL: section[.var] URL
+    --[no-]replace-all    replace all matching variables: name value [value-pattern]
+    --[no-]add            add a new variable: name value
+    --[no-]unset          remove a variable: name [value-pattern]
+    --[no-]unset-all      remove all matches: name [value-pattern]
+    --[no-]rename-section rename section: old-name new-name
+    --[no-]remove-section remove a section: name
+    -l, --[no-]list       list all
+    --[no-]fixed-value    use string equality when comparing values to 'value-pattern'
+    -e, --[no-]edit       open an editor
+    --[no-]get-color      find the color configured: slot [default]
+    --[no-]get-colorbool  find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --[no-]type <type>
+                          value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --[no-]null       terminate values with NUL byte
+    --[no-]name-only      show variable names only
+    --[no-]includes       respect include directives on lookup
+    --[no-]show-origin    show origin of config (file, standard input, blob, command line)
+    --[no-]show-scope     show scope of config (worktree, local, global, system, command)
+    --[no-]default <value>
+                          with --get, use default value when missing entry
+
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git config --list
+[?2004l[?1h=user.name=Gokulnath[m
+core.repositoryformatversion=0[m
+core.filemode=false[m
+core.bare=false[m
+core.logallrefupdates=true[m
+core.ignorecase=true[m
+user.name=Gokulnath[m
+user.email=gokulnath.kumara@tigeranalytics.com[m
+remote.origin.url=https://github.com/Gokulnath-Muthukumaran/clcick_tutorials.git[m
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*[m
+[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git[K[K[Kgit config --list[Kgifpush --set-upstream origin master
+[?2004lUsername for 'https://github.com': Gokulnath-Muthukumaran
+Password for 'https://Gokulnath-Muthukumaran@github.com': 
+remote: Permission to Gokulnath-Muthukumaran/clcick_tutorials.git denied to Gokulnath-Muthukumaran.
+fatal: unable to access 'https://github.com/Gokulnath-Muthukumaran/clcick_tutorials.git/': The requested URL returned error: 403
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit remote rm origin[27m[1Pgit remote rm origi[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit  [Kremote rm origin
+[?2004l[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git remote add [K[K[K[K
+[?2004l[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git remote origin [7mhttps://github.com/Gokul[27m[7mn[27m[7math-Muthukumaran/clcick_tutorials.git[27m[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://github.com/Gokulnath-Muthukumaran/clcick_tutorials.git
+[?2004lerror: unknown subcommand: `origin'
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename [--[no-]progress] <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --[no-]verbose    be verbose; must be placed before a subcommand
+
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git remote origin https://github.com/Gokulnath-Muthukumaran/clcick_tutorials.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Caorigin https://github.com/Gokulnath-Muthukumaran/clcick_tutorials.git[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [C[C[C[C[C[C[C[C[C[C[C[Cdorigin https://github.com/Gokulnath-Muthukumaran/clcick_tutorials.git[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cdorigin https://github.com/Gokulnath-Muthukumaran/clcick_tutorials.git[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C origin https://github.com/Gokulnath-Muthukumaran/clcick_tutorials.git[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git push origin master
+[?2004lUsername for 'https://github.com': Gokul     Gokulnath-Muthukumaran
+Password for 'https://Gokulnath-Muthukumaran@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Gokulnath-Muthukumaran/clcick_tutorials.git/'
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git push origin masterremote add origin https://github.com/Gokulnath-Muthukumaran/clcick_tutorials.git[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [C[C[C[C[20Ppush origin master
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lUsername for 'https://github.com': Gokulnath-Muthukumaran
+Password for 'https://Gokulnath-Muthukumaran@github.com': 
+remote: Permission to Gokulnath-Muthukumaran/clcick_tutorials.git denied to Gokulnath-Muthukumaran.
+fatal: unable to access 'https://github.com/Gokulnath-Muthukumaran/clcick_tutorials.git/': The requested URL returned error: 403
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git push origin master
+[?2004lUsername for 'https://github.com': Gokulnath-Muthukumaran
+Password for 'https://Gokulnath-Muthukumaran@github.com': 
+Enumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
+Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 1.40 KiB | 14.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:[K
+remote:      https://github.com/Gokulnath-Muthukumaran/clcick_tutorials/pull/new/master[K
+remote: 
+To https://github.com/Gokulnath-Muthukumaran/clcick_tutorials.git
+ * [new branch]      master -> master
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git log
+[?2004l[?1h=[33mcommit ad713d49838e46da7ef94101d25df282e6c56d95[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m[m
+Author: Gokulnath <gokulnath.kumara@gmail.com>[m
+Date:   Tue May 28 11:52:00 2024 +0000[m
+[m
+    click_tutorials[m
+[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git log -p -2
+[?2004l[?1h=[33mcommit ad713d49838e46da7ef94101d25df282e6c56d95[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m[m
+Author: Gokulnath <gokulnath.kumara@gmail.com>[m
+Date:   Tue May 28 11:52:00 2024 +0000[m
+[m
+    click_tutorials[m
+[m
+[1mdiff --git a/.gitignore b/.gitignore[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..4cc4232[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/.gitignore[m[m
+[36m@@ -0,0 +1,6 @@[m[m
+[32m+[m[32m*.[oa][m[m
+[32m+[m[32m*~[m[m
+[32m+[m[32mInclude[m[m
+[32m+[m[32mbuild[m[41m [m[m
+[32m+[m[32mScripts[m[m
+[32m+[m[32mLib/[m[m
+[1mdiff --git a/calc.py b/calc.py[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..e704537[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/calc.py[m[m
+[36m@@ -0,0 +1,39 @@[m[m
+[32m+[m[32m# calc.py v1[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mimport click[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32m@click.group()[m[41m[7m^M[27m[m[m
+[32m+[m[32m@click.pass_context[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mdef cli(cli_ctx):[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m    print(cli_ctx)[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m    cli_ctx.ensure_object(dict)[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m    print(cli_ctx)[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m    # pass[m[41m[7m^M[27m[m[m
+:[K[K [K^X^X[H[2J[H[m
+[1mdiff --git a/.gitignore b/.gitignore[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..4cc4232[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/.gitignore[m[m
+[36m@@ -0,0 +1,6 @@[m[m
+[32m+[m[32m*.[oa][m[m
+[32m+[m[32m*~[m[m
+[32m+[m[32mInclude[m[m
+[32m+[m[32mbuild[m[41m [m[m
+[32m+[m[32mScripts[m[m
+[32m+[m[32mLib/[m[m
+[1mdiff --git a/calc.py b/calc.py[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..e704537[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/calc.py[m[m
+[36m@@ -0,0 +1,39 @@[m[m
+[32m+[m[32m# calc.py v1[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mimport click[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32m@click.group()[m[41m[7m^M[27m[m[m
+[32m+[m[32m@click.pass_context[m[41m[7m^M[27m[m[m
+[32m+[m[32mdef cli(cli_ctx):[m[41m[7m^M[27m[m[m
+[32m+[m[32m    print(cli_ctx)[m[41m[7m^M[27m[m[m
+[32m+[m[32m    cli_ctx.ensure_object(dict)[m[41m[7m^M[27m[m[m
+[32m+[m[32m    print(cli_ctx)[m[41m[7m^M[27m[m[m
+[32m+[m[32m    # pass[m[41m[7m^M[27m[m[m
+:[K[K[?1l>
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git log --stat
+[?2004l[?1h=[33mcommit ad713d49838e46da7ef94101d25df282e6c56d95[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m[m
+Author: Gokulnath <gokulnath.kumara@gmail.com>[m
+Date:   Tue May 28 11:52:00 2024 +0000[m
+[m
+    click_tutorials[m
+[m
+ .gitignore |  6 [32m++++++[m[m
+ calc.py    | 39 [32m+++++++++++++++++++++++++++++++++++++++[m[m
+ context.py | 39 [32m+++++++++++++++++++++++++++++++++++++++[m[m
+ hello.py   | 11 [32m+++++++++++[m[m
+ pyvenv.cfg |  5 [32m+++++[m[m
+ 5 files changed, 100 insertions(+)[m
+[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit log --pretty=oneline[27mgit log --pretty=oneline
+[?2004l[?1h=[33mad713d49838e46da7ef94101d25df282e6c56d95[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m click_tutorials[m
+[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit log --pretty=format:"%h - %an, %ar : %[27m[7ms[27m[7m"[27m[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git log --pretty=format:"%h - %an, %ar : %s"
+[?2004l[?1h=ad713d4 - Gokulnath, 40 minutes ago : click_tutorials[m
+[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit log --pretty=format:"%h %s" --graph[27mgit log --pretty=format:"%h %s" --graph
+[?2004l[?1h=* ad713d4 click_tutorials[m
+[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit log --since=2.weeks[27mgit log --since=2.weeks
+[?2004l[?1h=[33mcommit ad713d49838e46da7ef94101d25df282e6c56d95[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m[m
+Author: Gokulnath <gokulnath.kumara@gmail.com>[m
+Date:   Tue May 28 11:52:00 2024 +0000[m
+[m
+    click_tutorials[m
+[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit log -S function_name[27mgit log -S function_name
+[?2004l[?1h=[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit log --pretty="%h - %s" --author='Junio[27m[7m [27m[7mC Hamano' --since="2008-10-01" \ [27m
+[7m   --before="2008-11-01" --no-merges -- t/[27m[A[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git log --pretty="%h - %s" --author='Junio C Hamano' --since="2008-10-01" \
+   --before="2008-11-01" --no-merges -- t/
+[?2004l[?1h=[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit commit --amend[27mgit commit --amend
+[?2004lhint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;31r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[29;56H(B[0;7m[ Reading... ](B[m[29;54H(B[0;7m[ Read 19 lines ](B[m[H(B[0;7m  GNU nano 7.2              /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial/.git/COMMIT_EDITMSG                        [1;123H(B[m[30d(B[0;7m^G(B[m Help[30;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[30;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[31d(B[0;7m^X(B[m Exit[31;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2dclick_tutorials[4d[36m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d#[7d# Author:    Gokulnath <gokulnath.kumara@gmail.com>[8d# Date:      Tue May 28 11:52:00 2024 +0000[9d#[10d# On branch master[11d#[12d# Initial commit[13d#[14d# Changes to be committed:[15d#[38;5;208m       [36mnew file:   .gitignore[16d#[38;5;208m       [36mnew file:   calc.py[17d#[38;5;208m       [36mnew file:   context.py[18d#[38;5;208m       [36mnew file:   hello.py[19d#[38;5;208m       [36mnew file:   pyvenv.cfg[20d#[2d[39m(B[m[?12l[?25h[?25l[29d[J[31d[?12l[?25h[31;1H[?1049l[23;0;0t[?1l>[?2004l[K[master e27425d] click_tutorials
+ Author: Gokulnath <gokulnath.kumara@gmail.com>
+ Date: Tue May 28 11:52:00 2024 +0000
+ 5 files changed, 100 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 calc.py
+ create mode 100644 context.py
+ create mode 100644 hello.py
+ create mode 100644 pyvenv.cfg
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git status
+[?2004lOn branch master
+nothing to commit, working tree clean
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit remote -v[27mgit remote -v
+[?2004lorigin	https://github.com/Gokulnath-Muthukumaran/clcick_tutorials.git (fetch)
+origin	https://github.com/Gokulnath-Muthukumaran/clcick_tutorials.git (push)
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ fit[K[K[Kgit remote
+[?2004lorigin
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git tag
+[?2004l[?1h=[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit tag -a v1.4 -m "my version 1.4"[27mgit tag -a v1.4 -m "my version 1.4"[1P"[1P"."1"[C[1P[1@1
+[?2004l[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git tga[K[Kag
+[?2004l[?1h=v1.1[m
+[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git show v1.1
+[?2004l[?1h=[33mtag v1.1[m[m
+Tagger: Gokulnath <gokulnath.kumara@tigeranalytics.com>[m
+Date:   Tue May 28 12:36:05 2024 +0000[m
+[m
+my version 1.1[m
+[m
+[33mcommit e27425d982a45550fa8397b34b8fab4ea43b52fa[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;33mtag: [m[1;33mv1.1[m[33m)[m[m
+Author: Gokulnath <gokulnath.kumara@gmail.com>[m
+Date:   Tue May 28 11:52:00 2024 +0000[m
+[m
+    click_tutorials[m
+[m
+[1mdiff --git a/.gitignore b/.gitignore[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..4cc4232[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/.gitignore[m[m
+[36m@@ -0,0 +1,6 @@[m[m
+[32m+[m[32m*.[oa][m[m
+[32m+[m[32m*~[m[m
+[32m+[m[32mInclude[m[m
+[32m+[m[32mbuild[m[41m [m[m
+[32m+[m[32mScripts[m[m
+[32m+[m[32mLib/[m[m
+[1mdiff --git a/calc.py b/calc.py[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..e704537[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/calc.py[m[m
+[36m@@ -0,0 +1,39 @@[m[m
+:[K[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit log --pretty=oneline[27mgit log --pretty=oneline
+[?2004l[?1h=[33me27425d982a45550fa8397b34b8fab4ea43b52fa[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;33mtag: [m[1;33mv1.1[m[33m)[m click_tutorials[m
+[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit tag -d v1.4-lw[27mgit tag -d v1.4-lw[K[K[K[K1
+[?2004lDeleted tag 'v1.1' (was 56ca1ec)
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git branch tres[K[K[Kesting
+[?2004l[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit log --oneline --decorate[27mgit log --oneline --decorate
+[?2004l[?1h=[33me27425d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;32mtesting[m[33m)[m click_tutorials[m
+[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git ch[K[Kbranch
+[?2004l[?1h=* [32mmaster[m[m
+  testing[m[m
+[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git checkout testing
+[?2004lSwitched to branch 'testing'
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mvim test.rb[27mvim test.rb
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;31r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[31;1H"test.rb" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                           [3;1H~                                                                                                                           [4;1H~                                                                                                                           [5;1H~                                                                                                                           [6;1H~                                                                                                                           [7;1H~                                                                                                                           [8;1H~                                                                                                                           [9;1H~                                                                                                                           [10;1H~                                                                                                                           [11;1H~                                                                                                                           [12;1H~                                                                                                                           [13;1H~                                                                                                                           [14;1H~                                                                                                                           [15;1H~                                                                                                                           [16;1H~                                                                                                                           [17;1H~                                                                                                                           [18;1H~                                                                                                                           [19;1H~                                                                                                                           [20;1H~                                                                                                                           [21;1H~                                                                                                                           [22;1H~                                                                                                                           [23;1H~                                                                                                                           [24;1H~                                                                                                                           [25;1H~                                                                                                                           [26;1H~                                                                                                                           [27;1H~                                                                                                                           [28;1H~                                                                                                                           [29;1H~                                                                                                                           [30;1H~                                                                                                                           [m[31;107H0,0-1[9CAll[1;1H[?25h[?4m[?12$p[?25l[31;97H^M[1;1H[31;97H  [1;1H[?25h[?25l[31;97H^M[1;1H[31;97H  [1;1H[?25h[?25l[31;97H^M[1;1H[31;97H  [1;1H[?25h[?25l[31;97H^X[1;1H[31;97H  [1;1H[?25h[?25l[31;97H^Q[1;1H[31;97H1x1[1;1H[31;1H[1m-- VISUAL BLOCK --[m[31;97H[K[31;97H1x1[1;1H[31;107H0,0-1[9CAll[1;1H[?25h[?25l[31;97H^M [1;1H[31;97H1x1[1;1H[?25h[?25l[31;97Hq  [1;1H[?25h[?25l[31;98H^M[1;1H[31;97H1x1[1;1H[?25h[?25l[31;97H^[ [1;1H[31;97H1x1[1;1H[31;100H^[[1;1H[31;97H     [1;1H[31;1H[K[31;107H0,0-1[9CAll[1;1H[?25h[?25l[31;97H;[1;1H[31;97H [1;1H[?25h[?25l[31;97Hq[1;1H[?25h[?25l[31;98Ha[1;1H[31;1H[1mrecording @a[m[31;97H[K[31;107H0,0-1[9CAll[1;1H[?25h[?25l[31;97H^M[1;1H[31;97H  [1;1H[?25h[?25l[31;97H^[[1;1H[31;97H  [1;1H[31;97H^[[1;1H[31;97H  [1;1H[?25h[?25l[31;97H^[[1;1H[31;97H  [1;1H[31;97H^[[1;1H[31;97H  [1;1H[?25h[?25l[31;97H^[[1;1H[31;97H  [1;1H[31;97H^[[1;1H[31;97H  [1;1H[?25h[?25l[31;97H;[1;1H[31;97H [1;1H[?25h[?25l[31;97H:[1;1H[31;1H[K[31;1H:[?25hqa[?25l[?2004l[>4;m[23;2t[23;1t[31;1H[K[31;1H[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ ls
+[?2004l[0m[34;42mInclude[0m  [34;42mLib[0m  [34;42mScripts[0m  [01;32mcalc.py[0m  [01;32mcontext.py[0m  [01;32mhello.py[0m  [01;32mpyvenv.cfg[0m
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ nano test,[K.rb
+[?2004l[?2004h[?1049h[22;0;0t[1;31r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[29;57H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                                               test.rb                                                        [1;123H(B[m[30d(B[0;7m^G(B[m Help[30;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[30;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[31d(B[0;7m^X(B[m Exit[31;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[1;70H(B[0;7m*[123G(B[m[?12l[?25h[2d(B[0;1m[34mO[39m(B[m[?25l[3d[?12l[?25h[?25l[A[C[?12l[?25h[?25l[?12l[?25h[K[?25l[30;16H[16X[30;32H(B[0;7mM-D(B[m DOS Format      [30;61H  (B[0;7mM-A(B[m Append[21X[30;94H(B[0;7mM-B(B[m Backup File[K[31;2H(B[0;7mC(B[m Cancel[16G[16X[31;32H(B[0;7mM-M(B[m Mac Format        [61G  (B[0;7mM-P(B[m Prepend[20X[31;94H(B[0;7m^T(B[m Browse[K[29d(B[0;7mFile Name to Write: test.rb                                                                                                 [29;28H(B[m[?12l[?25h[?25l[29;55H[1K (B[0;7m[ Writing... ](B[m[K[1;70H(B[0;7m [123G(B[m[29;55H(B[0;7m[ Wrote 1 line ](B[m[30;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[30;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo       (B[0;7mM-A(B[m Set Mark[31;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo       (B[0;7mM-6(B[m Copy[?12l[?25h[2d[?25l[29d[J[31d[?12l[?25h[31;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit commit -a -m 'Make a change'[27mgit commit -a -m 'Make a change'
+[?2004lOn branch testing
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mtest.rb[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git status
+[?2004lOn branch testing
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mtest.rb[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit checkout master[27mgit checkout master
+[?2004lSwitched to branch 'master'
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git status
+[?2004lOn branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mtest.rb[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit log --oneline --decorate --graph --all[27m [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit log --oneline --decorate --graph --all [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kl
+[?2004l[?1h=* [33me27425d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;32mtesting[m[33m)[m click_tutorials[m
+* [33mad713d4[m[33m ([m[1;31morigin/master[m[33m)[m click_tutorials[m
+[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git che[Kc[Keckout testing
+[?2004lSwitched to branch 'testing'
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git sta[Katus
+[?2004lOn branch testing
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mtest.rb[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git add .
+[?2004l[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git commit [7m-a -m 'Create new footer [issue[27m[7m [27m[7m53]'[27m[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [C[C[C[C[C[C[C[C[C[C[C-a -m 'Create new footer [issue 53]'
+[?2004l[testing 67e2c50] Create new footer [issue 53]
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.rb
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git log
+[?2004l[?1h=[33mcommit 67e2c5010adcf829cd41aea1c16ed9e47163644c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mtesting[m[33m)[m[m
+Author: Gokulnath <gokulnath.kumara@tigeranalytics.com>[m
+Date:   Tue May 28 12:45:15 2024 +0000[m
+[m
+    Create new footer [issue 53][m
+[m
+[33mcommit e27425d982a45550fa8397b34b8fab4ea43b52fa[m[33m ([m[1;32mmaster[m[33m)[m[m
+Author: Gokulnath <gokulnath.kumara@gmail.com>[m
+Date:   Tue May 28 11:52:00 2024 +0000[m
+[m
+    click_tutorials[m
+[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git checkout master
+[?2004lSwitched to branch 'master'
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git log
+[?2004l[?1h=[33mcommit e27425d982a45550fa8397b34b8fab4ea43b52fa[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m[m
+Author: Gokulnath <gokulnath.kumara@gmail.com>[m
+Date:   Tue May 28 11:52:00 2024 +0000[m
+[m
+    click_tutorials[m
+[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit checkout -b hotfix[27mgit checkout -b hotfix
+[?2004lSwitched to a new branch 'hotfix'
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ nano.index.html[1Pindex.html index.html
+[?2004l[?2004h[?1049h[22;0;0t[1;31r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[29;57H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                                             index.html                                                       [1;123H(B[m[30d(B[0;7m^G(B[m Help[30;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[30;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[31d(B[0;7m^X(B[m Exit[31;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[30;16H[16X[30;32H(B[0;7mM-D(B[m DOS Format      [30;61H  (B[0;7mM-A(B[m Append[21X[30;94H(B[0;7mM-B(B[m Backup File[K[31;2H(B[0;7mC(B[m Cancel[16G[16X[31;32H(B[0;7mM-M(B[m Mac Format        [61G  (B[0;7mM-P(B[m Prepend[20X[31;94H(B[0;7m^T(B[m Browse[K[29d(B[0;7mFile Name to Write: index.html                                                                                              [29;31H(B[m[?12l[?25h[?25l[29;55H[1K (B[0;7m[ Writing... ](B[m[K[1;123H[29;54H(B[0;7m[ Wrote 0 lines ](B[m[30;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[30;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo       (B[0;7mM-A(B[m Set Mark[31;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo       (B[0;7mM-6(B[m Copy[?12l[?25h[2d[?25l[1;71H(B[0;7m*[123G(B[m[3d[?12l[?25h[?25l[29d(B[0;7mSave modified buffer?                                                                                                       [30;1H Y(B[m Yes[K[31d(B[0;7m N(B[m No  [31;16H (B[0;7m^C(B[m Cancel[K[29;23H[?12l[?25h[?25l[J[31d[?12l[?25h[31;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ ls
+[?2004l[0m[34;42mInclude[0m  [34;42mLib[0m  [34;42mScripts[0m  [01;32mcalc.py[0m  [01;32mcontext.py[0m  [01;32mhello.py[0m  [01;32mindex.html[0m  [01;32mpyvenv.cfg[0m
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git add .
+[?2004l[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit commit -a -m 'Fix broken email address[27m[7m'[27m[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git commit -a -m 'Fix broken email address'
+[?2004l[hotfix 072ffd5] Fix broken email address
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit checkout master[27mgit checkout master
+[?2004lSwitched to branch 'master'
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit merge hotfix[27mgit merge hotfix
+[?2004lUpdating e27425d..072ffd5
+Fast-forward
+ index.html | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit branch -d hotfix[27mgit branch -d hotfix
+[?2004lDeleted branch hotfix (was 072ffd5).
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git status
+[?2004lOn branch master
+nothing to commit, working tree clean
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git branch -v
+[?2004l[?1h=* [32mmaster [m 072ffd5 Fix broken email address[m
+  testing[m 67e2c50 Create new footer [issue 53][m
+[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git branch 0[K--merged
+[?2004l[?1h=* [32mmaster[m[m
+[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit branch --no-merged[27mgit branch --no-merged
+[?2004l[?1h=  testing[m[m
+[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit branch -d testing[27mgit branch -d testing
+[?2004lerror: the branch 'testing' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D testing'
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit branch --move bad-branch-name correcte[27m[7md[27m[7m-branch-name[27m[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git branch --move bad-branch-name corrected-branch-name[K[K[K[K[K[K[K[K[K[K[K[K_testing[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C corrected_[1Ptesting[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C corrected_t[1Pesting[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C corrected_te[1Psting[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C corrected_tes[1Pting[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C corrected_test[1Ping[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C corrected_testi[1Png[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C corrected_testin[1Pg[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C corrected_testing[K[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C corrected_testing [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P corrected_testing
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P corrected_testing[1P corrected_testing[1P corrected_testing[1P corrected_testing[1P corrected_testingt corrected_testinge corrected_testings corrected_testingi corrected_testingn corrected_testingg corrected_testing [A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lfatal: no branch named 'tesing'
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git branch --move tesing corrected_testing [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cting corrected_testing[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git branch
+[?2004l[?1h=  corrected_testing[m[m
+* [32mmaster[m[m
+[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit push --set-upstream origin corrected-b[27m[7mr[27m[7manch-name[27m[A(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git push --set-upstream origin corrected-branch-name
+[?2004lerror: src refspec corrected-branch-name does not match any
+[31merror: failed to push some refs to 'https://github.com/Gokulnath-Muthukumaran/clcick_tutorials.git'
+[m[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git branch
+[?2004l[?1h=  corrected_testing[m[m
+* [32mmaster[m[m
+[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git push
+[?2004lfatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git pushbranchpush --set-upstream origin corrected-branch-name[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K-[K_t esting
+[?2004lUsername for 'https://github.com': Gokulnath-Muthukumaran
+Password for 'https://Gokulnath-Muthukumaran@github.com': 
+Enumerating objects: 10, done.
+Counting objects:  10% (1/10)Counting objects:  20% (2/10)Counting objects:  30% (3/10)Counting objects:  40% (4/10)Counting objects:  50% (5/10)Counting objects:  60% (6/10)Counting objects:  70% (7/10)Counting objects:  80% (8/10)Counting objects:  90% (9/10)Counting objects: 100% (10/10)Counting objects: 100% (10/10), done.
+Delta compression using up to 12 threads
+Compressing objects:  12% (1/8)Compressing objects:  25% (2/8)Compressing objects:  37% (3/8)Compressing objects:  50% (4/8)Compressing objects:  62% (5/8)Compressing objects:  75% (6/8)Compressing objects:  87% (7/8)Compressing objects: 100% (8/8)Compressing objects: 100% (8/8), done.
+Writing objects:  10% (1/10)Writing objects:  20% (2/10)Writing objects:  30% (3/10)Writing objects:  40% (4/10)Writing objects:  50% (5/10)Writing objects:  60% (6/10)Writing objects:  70% (7/10)Writing objects:  80% (8/10)Writing objects:  90% (9/10)Writing objects: 100% (10/10)Writing objects: 100% (10/10), 1.65 KiB | 17.00 KiB/s, done.
+Total 10 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), done.[K
+remote: 
+remote: Create a pull request for 'corrected_testing' on GitHub by visiting:[K
+remote:      https://github.com/Gokulnath-Muthukumaran/clcick_tutorials/pull/new/corrected_testing[K
+remote: 
+To https://github.com/Gokulnath-Muthukumaran/clcick_tutorials.git
+ * [new branch]      corrected_testing -> corrected_testing
+branch 'corrected_testing' set up to track 'origin/corrected_testing'.
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git branch
+[?2004l[?1h=  corrected_testing[m[m
+* [32mmaster[m[m
+[K[?1l>[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git checkout corrected_tesing[K[K[Kting
+[?2004lSwitched to branch 'corrected_testing'
+Your branch is up to date with 'origin/corrected_testing'.
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ [7mgit rebase master[27mgit rebase master
+[?2004lRebasing (1/1)[KSuccessfully rebased and updated refs/heads/corrected_testing.
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git checkout master
+[?2004lSwitched to branch 'master'
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ git merge corrected_testing
+[?2004lUpdating 072ffd5..16924b1
+Fast-forward
+ test.rb | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.rb
+[?2004h(base) ]0;gokulnath@TIGER04785: /mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[01;32mgokulnath@TIGER04785[00m:[01;34m/mnt/c/Users/gokulnath.kumara/Desktop/click_tutorial[00m$ exit
+[?2004lexit
+
+Script done on 2024-05-28 12:54:50+00:00 [COMMAND_EXIT_CODE="0"]
